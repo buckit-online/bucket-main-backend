@@ -42,6 +42,7 @@ app.use('/server/orderDetails', orderRouter)
 app.use('/server/userDetails', userRouter)
 app.use('/server/inventoryDetails', inventoryRouter)
 
+
 // app.use(express.static(path.join(__dirname, '/client/dist')))
 
 // app.get('*', (req, res) => {
